@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Componentes Basicos</string>
+    <string name="toggle_turn_on">Turn On</string>
+    <string name="toggle_turn_off">Turn Off</string>
+    <string name="btn_display">Display</string>
+
+    <string name="hint">Please type language</string>
+
+    <string name="selected_item">Selected item:</string>
+
+    <string-array name="Languages">
+        <item>Kotlin</item>
+        <item>Swift</item>
+        <item>Python</item>
+        <item>Scala</item>
+        <item>Javascript</item>
+    </string-array>
+
+    <string name="checked">checked</string>
+    <string name="unchecked">unchecked</string>
+
+    <string name="action_settings">settings</string>
+    <string name="action_share">share</string>
+    <string name="action_exit">exit</string>
+
+</resources>
