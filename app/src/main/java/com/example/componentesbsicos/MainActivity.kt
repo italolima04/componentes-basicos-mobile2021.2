@@ -1,7 +1,7 @@
 package com.example.componentesbsicos
 
 import adapters.MyAdapter
-import adapters.ViewPagerAdapter
+//import adapters.ViewPagerAdapter
 import android.media.MediaPlayer
 import android.os.Bundle
 import android.view.Menu
@@ -28,6 +28,7 @@ class MainActivity : AppCompatActivity() {
 
         mySound = MediaPlayer.create(this, R.raw.erro)
 
+        /* View Pager, Multiple Activities and Tab Navigation
         val tabLayout = findViewById<TabLayout>(R.id.tabs)
         val viewPager2 = findViewById<ViewPager2>(R.id.view_pager)
 
@@ -40,6 +41,8 @@ class MainActivity : AppCompatActivity() {
                     tab.text = "Tab " + (position + 1)
                 }
             }).attach()
+        */
+
 
         addListenerOnButton()
         addEditText()

@@ -11,13 +11,14 @@ import com.example.componentesbsicos.PageOne
 import com.example.componentesbsicos.PageTwo
 
 
+/*
 class ViewPagerAdapter(fragmentActivity: FragmentActivity) :
     FragmentStateAdapter(fragmentActivity) {
-    override fun createFragment(position: Int): Fragment {
+    override fun createFragment(position: Int): MainActivity {
         return when (position) {
-            0 -> PageOne()
-            1 -> PageTwo()
-            else -> PageTwo()
+            0 -> MainActivity()
+            1 -> MainActivity()
+            else -> MainActivity()
         }
     }
 
@@ -25,3 +26,4 @@ class ViewPagerAdapter(fragmentActivity: FragmentActivity) :
         return 2
     }
 }
+ */

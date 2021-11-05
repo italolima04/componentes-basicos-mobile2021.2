@@ -5,8 +5,23 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:orientation="vertical">
 
+    <androidx.viewpager2.widget.ViewPager2
+        android:id="@+id/view_pager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="145dp"
+        tools:layout_editor_absoluteY="500dp" />
 
+    <ListView
+        android:id="@+id/userlist"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+    </ListView>
 
-
+    <ListView
+        android:id="@+id/userlistadapter"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+    </ListView>
 
 </LinearLayout>
